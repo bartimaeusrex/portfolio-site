@@ -47,13 +47,13 @@ div.column a:hover {
     border-right:1px solid black;
     position:relative;
     background-color:rgba(245, 218, 161, 0.342);
-    background-image:url("texture_white.png");
+    background-image:url("public/images/texture_white.png");
 }
 
   /* Style the header */
   .header {
     background-color: #666666;
-    background-image: url("endpapers_antique.jpg");
+    background-image: url("public/images/endpapers_antique.jpg");
     background-attachment: fixed;
     background-blend-mode: multiply;
     padding: 20px;
@@ -68,7 +68,7 @@ div.column a:hover {
   .topnav {
     overflow: hidden;
     background-color: #333;
-    background-image:url("texture_black.png");
+    background-image:url("public/images/texture_black.png");
   }
   
   /* Style the topnav links */
@@ -86,7 +86,7 @@ div.column a:hover {
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
-    background-image: url("texture_white.png");
+    background-image: url("public/images/texture_white.png");
     color: black;
     border-radius:0 0 0 12px;
   }
@@ -103,7 +103,7 @@ div.column a:hover {
     float:left;
     width:100%;
     height:10px;
-    background-image:url("aaronburden01.jpg");
+    background-image:url("public/images/aaronburden01.jpg");
     background-attachment:fixed;
     margin:15px;
     border-radius:3px;
@@ -138,6 +138,12 @@ div.column a:hover {
   align-items: center;
 }
 
+#dude {
+    display: inline;
+    position:relative;
+    top:6px;
+}
+
 p.quote {
   border-left:1px solid black;
   padding:10px 25px 0 25px;
@@ -167,7 +173,7 @@ p.quoteauthor {
 #reinhartphoto {
   width:200px;
   height:200px;
-  background-image: url("patrickreinhart.jpg");
+  background-image: url("public/images/patrickreinhart.jpg");
   border-radius:100%;
   border-color:rgb(0, 0, 0);
   background-position:center;
